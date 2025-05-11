@@ -6,12 +6,12 @@ public class ShapeArray {
         Shape tri = new Triangle(10,10,15);
         Shape cir = new Circle(5);
 
-        ArrayList<Shape> shapes = new ArrayList<>();
-        shapes.add(rec);
-        shapes.add(tri);
-        shapes.add(cir);
+        ArrayList<Shape> shapeArray = new ArrayList<>();
+        shapeArray.add(rec);
+        shapeArray.add(tri);
+        shapeArray.add(cir);
 
-        for (Shape shape : shapes) {
+        for (Shape shape : shapeArray) {
             System.out.println(shape.toString());
         }
     }
